@@ -1,0 +1,39 @@
+
+body
+{
+	background-color: #333333;
+}
+.sekil
+{
+	height: 66vh;
+	width: 100%;
+	background-color: #333333;
+	background-position:50% 50% ;
+    background-image:linear-gradient(-90deg,rgba(37, 137, 189,0.6),rgba(252, 222, 190,0.6)),
+					  url(../photo/bg.jpg);
+    background-size:cover;
+    background-repeat: no-repeat; 
+    clip-path:polygon(0% 0%,100% 0%,100% 80%,50% 100%,0% 80%); 
+    
+	
+}
+
+.paraqraf
+{
+	font-size: 19px;
+    color: #2589BD;
+}
+.yazilar
+{
+	text-align: center;
+}
+.basliq
+{
+	font-size: 65px;
+	background-image: linear-gradient(-45deg,#2589BD 50%,#FCDEBE 50%);
+    background-position: center;
+    -webkit-background-clip: text;
+    color: transparent;
+
+    
+}
